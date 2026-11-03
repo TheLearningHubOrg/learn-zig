@@ -1,11 +1,14 @@
 .{
-    .name = "learn-zig",
+    .name = .learn_zig,
     .version = "1.0.0",
+    .fingerprint = 0x249d3c1103c793dd, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.0",
     .dependencies = .{},
     .paths = .{
         "build.zig",
         "build.zig.zon",
         "src",
+        "examples",
         "LICENSE",
         "README.md",
     },

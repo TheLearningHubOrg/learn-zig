@@ -1,0 +1,11 @@
+.git
+.github
+.zig-cache
+zig-cache
+zig-out
+zig-pkg
+public
+*.md
+!README.md
+Dockerfile
+.dockerignore

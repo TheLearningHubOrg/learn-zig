@@ -2,17 +2,29 @@
 zig-cache/
 zig-out/
 .zig-cache/
+# Project-local package cache (zig build --fetch into the project)
+zig-pkg/
 
 # Binaries and object files
 *.o
+*.obj
 *.a
+*.lib
 *.so
 *.dylib
 *.dll
 *.exe
+*.pdb
+*.wasm
 
-# IDE & OS
+# Editors and OS
 .vscode/
 .idea/
+*.swp
 .DS_Store
 Thumbs.db
+
+# Env files (never commit secrets)
+.env
+.env.*
+!.env.example
